@@ -4,7 +4,7 @@ public class vecka35 {
 	
 	public static void main(String[] args) {
 		
-		System.out.println(okänttal(1,2,3,4,123,123,123));
+		System.out.println(baklänges("LOL"));
 		
 	}
 
@@ -21,6 +21,22 @@ public class vecka35 {
 		return sum;
 		
 	}
+	
+	public static String baklänges(String string) {
+		
+		if(string.length() == 0){
+			
+			return string;
+		}
+		
+		else{
+			return baklänges(string.substring(1)) + string.charAt(0);
+				
+			}
+		
+	}
+	
+ 
 	
 	
 }
