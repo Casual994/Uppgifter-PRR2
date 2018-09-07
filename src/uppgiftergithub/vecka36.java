@@ -2,7 +2,7 @@ package uppgiftergithub;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Scanner;
+import java.util.Scanner;import javax.swing.text.StyledEditorKit.ForegroundAction;
 
 import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Array;
 
@@ -12,6 +12,26 @@ public class vecka36 {
 	 uppgift7();
 	 
  }
+ 
+ 	public static String acadaba(int n){
+ 		
+ 		
+ 		
+ 		return ;
+ 		
+ 	}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  	
  	public static int uppgift1(int... n){
  		
