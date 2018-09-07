@@ -1,12 +1,15 @@
 package uppgiftergithub;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 
-public class vecka36 {
+import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Array;
 
+public class vecka36 {
  public static void main(String[] args){
 	 
-	 uppgift4();
+	 uppgift7();
 	 
  }
  	
@@ -71,23 +74,55 @@ public class vecka36 {
  		}
  	
  	
- 		public class Person{
+ 		public class uppgift5{
  			
  			String name;
  			int age;
  			
- 		public Person(String name, int age){
+ 		public uppgift5(String name, int age){
  				
  				this.name = name;
  				this.age = age;
  				
  			}
+ 		
+ 
+ 		}
+ 		
+ 		public static void uppgift6(uppgift5 p1, uppgift5 p2) {
+ 			
+ 			if( p1.age > p2.age) {
+ 				System.out.println(p1.name);
+ 			}
+ 			
+ 			else if(p2.age > p1.age) {
+ 				System.out.println(p2.name);
+ 			}
+ 				
+ 			}
+ 		
+ 		public static int[] uppgift7(int... massa_tal){
+ 			
+ 			ArrayList<Integer> array = new ArrayList<Integer>();
+ 			
+ 			for (int i : massa_tal) {
+ 				array.add(i);
+ 			}
+ 			
+ 			Collections.sort(array);
+ 			
+ 			
+ 			for (int i = 0; i < massa_tal.length; i++) {
+ 				massa_tal[i] = array.get(i);
+			}
+ 			
+ 			return massa_tal;
+ 		}
  			
  		}
  		
  		
- 	}
- 	
+ 
  	
 
 
